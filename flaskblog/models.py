@@ -28,4 +28,4 @@ class Post(db.Model):
 
     # how object is printed
     def __repr__(self):
-        return f"User('{self.id}', '{self.title}', '{self.date_posted}', '{self.content}')"
+        return f"Post('{self.id}', '{self.title}', '{self.content}', '{self.date_posted}')"
